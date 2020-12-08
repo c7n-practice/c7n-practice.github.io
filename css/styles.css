@@ -1,0 +1,475 @@
+@charset "utf-8";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  background-color: #faf7ea;
+}
+
+.header {
+  width: 100%;
+}
+
+.box {
+  background-color:#72dce1;
+  padding-top: 85px;
+  margin: 0;
+}
+
+hr {
+  height: 8px;
+  margin-top: 4mm;
+  background-color:#72dce1;
+  border: none;
+}
+
+.first_block {
+  display: flex;
+  width: 1280px;
+  margin: auto
+}
+
+.first_block_right {
+  flex: 1
+}
+
+.top {
+  width: 82%;
+  margin-left: 60px;
+  filter: drop-shadow(5px 5px 5px #aaa);
+}
+
+#contact {
+  font-family: 'Ricty Diminished';
+  font-size: 2.5rem;
+  color: #646463;
+  margin: 0px 170px 10px;
+  margin-top: -1em;
+}
+
+.intro h2 {
+  color: #939391;
+  font-size: 4.5rem;
+  font-family: 'Abel'; 
+  filter: drop-shadow(1px 1px 1px #aaa);
+  text-align: center;
+  margin: 35px 0 0 0;
+}
+
+.intro h1 {
+  color: #f66070;
+  font-size: 7rem;
+  font-family: 'Abel';
+  text-align: center;
+  filter: drop-shadow(3px 3px 3px #aaa);
+  margin: 0;
+}
+
+.discription {
+  font-family: 'Ricty Diminished', 'Abel';
+  text-align: center;
+  line-height: 2;
+  font-size: 2rem;
+  color: #646463;
+}
+
+/* ↑ここまでが一番上のセクション↑ */
+
+.second_block {
+  width: 1280px;
+  margin: auto;
+}
+
+.second_block_top {
+  margin: auto;
+}
+
+.second_block_top h2 {
+  font-weight: bold;
+  font-family: 'Abel';
+  font-size: 5.8rem;
+  color:#f4e71a;
+  filter: drop-shadow(3px 3px 2.5px #aaa);
+  transform: scale(0.8, 1);
+  margin-left: 130px;
+  margin-bottom: 0px;
+}
+
+.PC {
+  margin-left: 50px;
+  width: 200px;
+  height: 200px;
+}
+
+.flame_jobexperience {
+  width: 100%;
+  background: rgba(233, 242, 250, 0.226);
+  border-radius: 400px 15px 15px 15px;
+  box-shadow: 10px 10px 10px rgba(70, 69, 69, 0.5);
+  display: flex;
+  height: 400px;
+}
+
+.context_jobexperience {
+  font-family: 'Ricty Diminished';
+  color: #646463; 
+  margin: 45px;
+}
+
+.context_jobexperience p {
+  word-wrap: break-word;
+  font-size: 1.7rem;
+}
+
+.context_jobexperience h3 {
+  line-height: 0.2;
+  font-size: 2rem;
+}
+
+.second_block_bottom {
+  display: flex;
+}
+
+.bottom_left {
+  flex:1;
+}
+
+.bottom_right {
+  flex:1;
+}
+
+.bottom_left h2 {
+  font-weight: bold;
+  font-family: 'Abel';
+  font-size: 5.8rem;
+  color:#f4e71a;
+  filter: drop-shadow(3px 3px 2.5px #aaa);
+  transform: scale(0.8, 1);
+  margin-bottom: 0;
+  margin-left: 150px;
+}
+
+.hat {
+  width: 200px;
+  height: 200px;
+}
+
+.flame_education {
+  background: rgba(233, 242, 250, 0.226);
+  border-radius: 400px 15px 15px 15px;
+  box-shadow: 10px 10px 10px rgba(70, 69, 69, 0.5);
+  margin-left: 20px;
+  display: flex;
+  width: 95%;
+  height: 350px;
+} 
+
+.context_education {
+  font-family: 'Ricty Diminished';
+  color: #646463;
+  font-size: 2rem;
+  word-wrap: normal;
+  margin: 45px 15px 10px 0;
+}
+
+.bottom_right h2 {
+  font-weight: bold;
+  font-family: 'Abel';
+  font-size: 5.8rem;
+  color:#f4e71a;
+  filter: drop-shadow(3px 3px 2.5px #aaa);
+  transform: scale(0.8, 1);
+  margin-bottom: 0;
+  margin-left: 150px;
+}
+
+.good {
+  width: 200px;
+  height: 200px;
+}
+
+.flame_skills {
+  background: rgba(233, 242, 250, 0.226);
+  border-radius: 400px 15px 15px 15px;
+  box-shadow: 10px 10px 10px rgba(70, 69, 69, 0.5);
+  display: flex;
+  width: 95%;
+  height: 350px;
+  margin-left: 20px;
+}
+
+.context_skills {
+  font-family: 'Ricty Diminished';
+  color: #646463;
+  font-size: 2rem;
+  margin: 45px 15px 10px 0;
+}
+
+#list_skills li {
+  margin-top: 10px;
+}
+
+.context_skills dd {
+  font-size: 1.5rem;
+}
+/* ↑ここまでが２番目のセクション↑ */
+
+
+.third_block {
+  margin: 58.1px auto;
+  width: 1280px;
+}
+
+.third_left_top{
+  display: flex;
+}
+
+.third_left_top_left {
+  display: flex;
+}
+
+.art {
+  width: 200px;
+  height: 200px;  
+}
+
+.third_left_top_right h2{
+  font-weight: bold;
+  font-family: 'Abel';
+  font-size: 5.8rem;
+  color:#f4e71a;
+  filter: drop-shadow(3px 3px 2.5px #aaa);
+  transform: scale(0.8, 1);
+  margin: 0; 
+}
+
+.third_left_top_right h3{
+  font-weight: bold;
+  font-family: 'Abel';
+  font-size: 3.6rem;
+  color:#f4e71a;
+  filter: drop-shadow(3px 3px 2.5px #aaa);
+  transform: scale(0.8, 1);
+  margin-bottom: 0;
+  margin-top:0;
+}
+
+.third_left_bottom {
+  margin-left: 80px;
+}
+
+.kobe_banner {
+  width: 90%;
+  filter: drop-shadow(5px 5px 5px #aaa);
+}
+
+.third_left {
+  flex: 1;
+}
+
+.third_right {
+  flex:2;
+  margin-right: -30px;
+}
+
+.third_right ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+}
+
+.list_artwork {
+  list-style-type: none;
+}
+
+
+.christmas2 {
+  width: 90%;
+  filter: drop-shadow(5px 5px 5px #aaa);
+}
+
+.halloween {
+  width: 90%;
+  filter: drop-shadow(5px 5px 5px #aaa);
+}
+
+.christmas1 {
+  width: 90%;
+  filter: drop-shadow(5px 5px 5px #aaa);
+} 
+
+.info_card {
+   width: 90%;
+   filter: drop-shadow(5px 5px 5px #aaa);
+}
+
+.third_block_top {
+  display: flex;
+  margin-bottom: 60px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .first_block {
+    width: 500px;
+    display: block;
+  } 
+
+  .top {
+    width: 100%;
+    margin: auto;
+    }
+
+  #contact {
+    display: none;
+  } 
+
+  .first_block h2 {
+    margin: 0 auto;
+  }
+
+  .discription {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+
+  .second_block {
+    width: 500px;
+  }
+
+  .second_block_top h2 {
+    font-size: 5rem;
+    text-align: center;
+    margin: auto;
+  }
+
+  .PC {
+    width: 160px;
+    height: 160px;
+    margin: 5px;
+  }
+   
+  .flame_jobexperience {
+    width: 100%;
+    border-radius: 300px 15px 15px 15px;
+    box-shadow: 10px 10px 10px 5px rgba(70, 69, 69, 0.3);
+    height: 540px;
+    margin-top: 20px;
+  }
+
+  .context_jobexperience {
+    margin: 30px 20px 15px;
+  }
+  
+  .context_jobexperience p {
+    overflow-wrap: break-word;
+    font-size: 1.3rem;
+  }
+  
+  .context_jobexperience h3 {
+    font-size: 1.5rem;
+    line-height: 1em;
+    overflow-wrap: break-word;
+  }
+
+  .second_block_bottom {
+    display: block;
+  }
+
+  .hat {
+    width: 160px;
+    height: 160px;
+    margin: 5px;
+  }
+
+  .flame_education {
+    width: 100%;
+    border-radius: 300px 15px 15px 15px;
+    box-shadow: 10px 10px 10px 5px rgba(70, 69, 69, 0.3);
+    height: 300px;
+    margin-top: 20px;
+  } 
+
+  .bottom_left h2 {
+    font-size: 5rem;
+    text-align: center;
+    margin: 70px auto 20px;
+  }
+
+  .context_education {
+    font-size: 1.5rem;
+    word-wrap: normal;
+    margin: 45px 15px 10px 0;
+  }
+
+  .bottom_right h2 {
+    font-size: 5rem;
+    text-align: center;
+    margin: 70px auto 20px;
+  }
+
+  .good {
+    width: 160px;
+    height: 160px;
+    margin: 5px;
+  }
+
+  .flame_skills {
+    width: 100%;
+    border-radius: 300px 15px 15px 15px;
+    box-shadow: 10px 10px 10px 5px rgba(70, 69, 69, 0.3);
+    height: 300px;
+    margin-top: 20px;
+  } 
+
+  .context_skills {
+    font-size: 1.5rem;
+    word-wrap: normal;
+    margin: 45px 20px 10px 0;
+  }
+  
+  .context_skills dd {
+    font-size: 1.3rem;
+  }
+
+  .third_block {
+    width: 500px;
+  }
+
+  .art {
+    width: 160px;
+    height: 160px;
+    margin-left: 30px;
+  }
+  
+  .third_left_top_right h2{
+    font-size: 5rem;
+    text-align: center;
+    margin: 30px auto 0;
+
+  }
+  
+  .third_left_top_right h3{
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .third_block_top {
+    display: block;
+  }
+
+  .kobe_banner {
+    display: none;
+  }
+
+ 
+}
+
