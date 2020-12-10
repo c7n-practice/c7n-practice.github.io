@@ -14,12 +14,12 @@ body {
 }
 
 .header {
-  width: 100%;
+  width: auto;
 }
 
 .box {
   background-color:#72dce1;
-  padding-top: 85px;
+  height: 85px;
   margin: 0;
 }
 
@@ -223,7 +223,7 @@ hr {
 
 
 .third_block {
-  margin: 58.1px auto;
+  margin: 58.1px auto 20px;
   width: 1280px;
 }
 
@@ -312,10 +312,14 @@ hr {
 
 .third_block_top {
   display: flex;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
 }
 
-
+.box2 {
+  background-color:#72dce1;
+  height: 120px;
+  margin: 0;
+}
 
 @media screen and (max-width: 768px) {
   .first_block {
@@ -366,7 +370,7 @@ hr {
   }
 
   .context_jobexperience {
-    margin: 30px 20px 15px;
+    margin: 20px;
   }
   
   .context_jobexperience p {
@@ -405,9 +409,9 @@ hr {
   }
 
   .context_education {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     word-wrap: normal;
-    margin: 45px 15px 10px 0;
+    margin: auto;
   }
 
   .bottom_right h2 {
@@ -431,9 +435,9 @@ hr {
   } 
 
   .context_skills {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     word-wrap: normal;
-    margin: 45px 20px 10px 0;
+    margin: auto;
   }
   
   .context_skills dd {
@@ -470,6 +474,185 @@ hr {
     display: none;
   }
 
- 
 }
 
+
+@media screen and (max-width: 480px)  {
+  .box {
+    width: 100%;
+  }
+
+  .first_block {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+    justify-content: center;
+  } 
+
+  .top {
+    width: 100%;
+    margin: auto;
+    }
+
+  #contact {
+    display: none;
+  } 
+
+  .intro h2 {
+    font-size: 3rem;
+    text-align: center;
+    margin-left: auto;
+  }
+  
+  .intro h1 {
+    font-size: 5rem;
+    margin: 0;
+  }
+
+  .discription {
+    font-size: 0.9rem;
+    margin-bottom: 30px;
+  }
+
+  .second_block {
+    width: 300px;
+  }
+
+  .second_block_top h2 {
+    font-size: 3rem;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+  }
+
+  .PC {
+    width: 120px;
+    height: 120px;
+    margin: 5px;
+    display: none;
+  }
+   
+  .flame_jobexperience {
+    width: 100%;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 10px 10px 10px 5px rgba(70, 69, 69, 0.3);
+    height: 350px;
+    margin-top: 20px;
+  }
+
+  .context_jobexperience p {
+    overflow-wrap: break-word;
+    font-size: 0.6rem;
+  }
+  
+  .context_jobexperience h3 {
+    font-size: 1rem;
+    line-height: 1em;
+    overflow-wrap: break-word;
+  }
+
+  .second_block_bottom {
+    display: block;
+  }
+
+  .hat {
+    width: 120px;
+    height: 120px;
+    margin: 5px;
+    display: none;
+  }
+
+  .flame_education {
+    width: 100%;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 10px 10px 10px 5px rgba(70, 69, 69, 0.3);
+    height: 200px;
+    margin: auto;
+  } 
+
+  .bottom_left h2 {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .context_education {
+    font-size: 0.6rem;
+    word-wrap: normal;
+    line-height: 1.4rem;
+  }
+
+  .bottom_right h2 {
+    font-size: 3rem;
+    text-align: center;
+    margin: 40px auto 20px;
+  }
+
+  .good {
+    width: 120px;
+    height: 120px;
+    margin: 5px;
+    display: none;
+  }
+
+  .flame_skills {
+    width: 100%;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 10px 10px 10px 5px rgba(70, 69, 69, 0.3);
+    height: 300px;
+    margin: auto;
+  } 
+
+  .context_skills dt{
+    font-size: 1rem;
+    word-wrap: normal;
+    margin: auto;
+    line-height: 1.4rem;
+  }
+  
+  .context_skills dd {
+    font-size: 0.6rem;
+  }
+
+  .third_block {
+    width: 300px;
+    margin: auto;
+  }
+
+  .art {
+    display: none;
+  }
+  
+  .third_left_top {
+    text-align: center;
+    margin: auto;
+    display: block
+  }
+
+  .third_left_top_right h2{
+    font-size: 3rem;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+    
+  }
+  
+  .third_left_top_right h3{
+    font-size: 2rem;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  .third_block_top {
+    display: block;
+  }
+
+  .third_right {
+    margin: auto;
+  }
+
+  .kobe_banner {
+    display: none;
+  }
+
+}
